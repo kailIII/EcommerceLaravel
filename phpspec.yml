@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: LaravelCommerce
+        psr4_prefix: LaravelCommerce
+        src_path: app
