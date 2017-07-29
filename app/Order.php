@@ -11,6 +11,7 @@ use LaravelCommerce\OrderNotification;
 class Order extends Model
 {
 
+	
 	protected $fillable = [
 		'user_id',
 		'total',
