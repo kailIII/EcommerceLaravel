@@ -32,6 +32,7 @@ class RedirectIfAuthenticated
      * @param  \Closure  $next
      * @return mixed
      */
+    
     public function handle($request, Closure $next)
     {
         if ($this->auth->check()) {
