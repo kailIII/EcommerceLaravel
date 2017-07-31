@@ -8,6 +8,7 @@ use LaravelCommerce\Http\Requests;
 use LaravelCommerce\Http\Controllers\Controller;
 
 use LaravelCommerce\Order;
+
 use LaravelCommerce\Status;
 
 class AdminOrdersController extends Controller
