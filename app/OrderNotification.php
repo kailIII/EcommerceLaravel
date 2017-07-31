@@ -13,7 +13,8 @@ class OrderNotification extends Model
     	'name'
     ];
 
-    public function order()
+   
+   public function order()
     {
     	return $this->belongsTo('LaravelCommerce\Order');
     }
