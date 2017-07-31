@@ -20,6 +20,7 @@ class Authenticate
      * @param  Guard  $auth
      * @return void
      */
+   
     public function __construct(Guard $auth)
     {
         $this->auth = $auth;
