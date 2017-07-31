@@ -15,6 +15,7 @@ use LaravelCommerce\Http\Requests\ProductRequest;
 use LaravelCommerce\Http\Requests\ProductImageRequest;
 
 use Illuminate\Support\Facades\Storage;
+
 use Illuminate\Support\Facades\File;
 
 class AdminProductsController extends Controller
