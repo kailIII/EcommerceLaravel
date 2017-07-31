@@ -32,6 +32,7 @@ class StoreController extends Controller
 		return view('store.category', compact('categories', 'category', 'products'));
 	}
 
+	
 	public function search(Request $request, Category $category, Product $product)
 	{
 		$categories = $category->all();
