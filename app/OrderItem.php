@@ -15,6 +15,7 @@ class OrderItem extends Model
     	'qtd'
     ];
 
+    
     public function order()
     {
     	return $this->belongsTo('LaravelCommerce\Order');
