@@ -11,6 +11,7 @@ class CategoryRequest extends Request
      *
      * @return bool
      */
+   
     public function authorize()
     {
         return true;
