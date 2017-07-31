@@ -26,7 +26,8 @@ class Product extends Model
         return $this->hasMany('LaravelCommerce\ProductImage');
     }
 
-    // ManyToMany
+   
+   // ManyToMany
     public function tags()
     {
         return $this->belongsToMany('LaravelCommerce\Tag');
