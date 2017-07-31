@@ -27,6 +27,7 @@ Route::get('/cart/add/{id}', ['as' => 'cart.add', 'uses' => 'CartController@add'
 Route::get('/cart/destroy/{id}', ['as' => 'cart.destroy', 'uses' => 'CartController@destroy']);
 Route::post('cart/update/', ['as' => 'cart.update', 'uses' => 'CartController@update']);
 
+
 Route::group(['middleware'=>'auth'], function() {
 	Route::group(['prefix'=>'checkout'], function() {
 		Route::get('placeOrder', ['as' => 'checkout.place', 'uses' => 'CheckoutController@place']);
