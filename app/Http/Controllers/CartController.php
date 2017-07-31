@@ -11,6 +11,7 @@ use LaravelCommerce\Http\Controllers\Controller;
 use LaravelCommerce\Cart;
 use LaravelCommerce\Product;
 
+
 use LaravelCommerce\Http\Requests\CartRequest;
 
 class CartController extends Controller
