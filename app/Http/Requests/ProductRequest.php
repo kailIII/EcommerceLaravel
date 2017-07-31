@@ -11,6 +11,7 @@ class ProductRequest extends Request
      *
      * @return bool
      */
+    
     public function authorize()
     {
         return true;
