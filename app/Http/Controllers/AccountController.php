@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use LaravelCommerce\Http\Requests;
 use LaravelCommerce\Http\Controllers\Controller;
 
+
 use Illuminate\Support\Facades\Auth;
 use LaravelCommerce\Order;
 
