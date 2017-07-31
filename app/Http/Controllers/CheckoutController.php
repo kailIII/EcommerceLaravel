@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Session;
 use LaravelCommerce\Order;
 use LaravelCommerce\OrderItem;
 use LaravelCommerce\Category;
+
 use LaravelCommerce\Events\CheckoutEvent;
 
 use Auth;
