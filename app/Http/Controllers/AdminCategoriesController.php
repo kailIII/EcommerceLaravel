@@ -8,6 +8,7 @@ use LaravelCommerce\Http\Requests;
 use LaravelCommerce\Http\Controllers\Controller;
 
 use LaravelCommerce\Category;
+
 use LaravelCommerce\Http\Requests\CategoryRequest;
 
 class AdminCategoriesController extends Controller
