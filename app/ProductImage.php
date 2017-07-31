@@ -12,6 +12,7 @@ class ProductImage extends Model
     	'extension'
     ];
 
+   
     public function product()
     {
     	return $this->belongsTo('LaravelCommerce\Product');
