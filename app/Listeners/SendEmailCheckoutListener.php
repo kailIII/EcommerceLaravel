@@ -26,6 +26,7 @@ class SendEmailCheckoutListener
      * @param  CheckoutEvent  $event
      * @return void
      */
+   
     public function handle(CheckoutEvent $event)
     {
         $user = $event->getUser();
